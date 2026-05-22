@@ -29,13 +29,11 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmOrders));
-            this.panel3 = new System.Windows.Forms.Panel();
             this.datePickup = new Guna.UI2.WinForms.Guna2DateTimePicker();
             this.txtConNo = new System.Windows.Forms.TextBox();
             this.label10 = new System.Windows.Forms.Label();
             this.cmbCategory = new System.Windows.Forms.ComboBox();
             this.label9 = new System.Windows.Forms.Label();
-            this.splitter1 = new System.Windows.Forms.Splitter();
             this.btnDeleteSo = new System.Windows.Forms.Button();
             this.btnUpdateSo = new System.Windows.Forms.Button();
             this.btnAddOrder = new System.Windows.Forms.Button();
@@ -52,52 +50,21 @@
             this.panel4 = new System.Windows.Forms.Panel();
             this.label8 = new System.Windows.Forms.Label();
             this.guna2GradientPanel1 = new Guna.UI2.WinForms.Guna2GradientPanel();
-            this.btnOrdLogout = new System.Windows.Forms.Button();
-            this.btnOrdSettings = new System.Windows.Forms.Button();
-            this.btnOrdUsers = new System.Windows.Forms.Button();
-            this.btnOrdStocks = new System.Windows.Forms.Button();
-            this.btnOrdSales = new System.Windows.Forms.Button();
-            this.btnOrdInventory = new System.Windows.Forms.Button();
-            this.btnOrdOrders = new System.Windows.Forms.Button();
+            this.btnDbLogout = new System.Windows.Forms.Button();
+            this.btnDbSettings = new System.Windows.Forms.Button();
+            this.btnDbUsers = new System.Windows.Forms.Button();
+            this.btnDbStocks = new System.Windows.Forms.Button();
+            this.btnDbSales = new System.Windows.Forms.Button();
+            this.btnDbInventory = new System.Windows.Forms.Button();
+            this.btnDbOrders = new System.Windows.Forms.Button();
             this.guna2GradientPanel2 = new Guna.UI2.WinForms.Guna2GradientPanel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.panel3.SuspendLayout();
             this.panel4.SuspendLayout();
             this.guna2GradientPanel1.SuspendLayout();
             this.guna2GradientPanel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.SuspendLayout();
-            // 
-            // panel3
-            // 
-            this.panel3.BackColor = System.Drawing.Color.MistyRose;
-            this.panel3.Controls.Add(this.datePickup);
-            this.panel3.Controls.Add(this.txtConNo);
-            this.panel3.Controls.Add(this.label10);
-            this.panel3.Controls.Add(this.cmbCategory);
-            this.panel3.Controls.Add(this.label9);
-            this.panel3.Controls.Add(this.splitter1);
-            this.panel3.Controls.Add(this.btnDeleteSo);
-            this.panel3.Controls.Add(this.btnUpdateSo);
-            this.panel3.Controls.Add(this.btnAddOrder);
-            this.panel3.Controls.Add(this.cmbStat);
-            this.panel3.Controls.Add(this.label7);
-            this.panel3.Controls.Add(this.label6);
-            this.panel3.Controls.Add(this.txtQuantity);
-            this.panel3.Controls.Add(this.cmbProduct);
-            this.panel3.Controls.Add(this.txtCustName);
-            this.panel3.Controls.Add(this.label5);
-            this.panel3.Controls.Add(this.label4);
-            this.panel3.Controls.Add(this.label3);
-            this.panel3.Controls.Add(this.label1);
-            this.panel3.Location = new System.Drawing.Point(206, 74);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(375, 526);
-            this.panel3.TabIndex = 4;
-            this.panel3.Paint += new System.Windows.Forms.PaintEventHandler(this.panel3_Paint);
             // 
             // datePickup
             // 
@@ -108,7 +75,7 @@
             this.datePickup.Font = new System.Drawing.Font("Bahnschrift", 9F);
             this.datePickup.ForeColor = System.Drawing.Color.White;
             this.datePickup.Format = System.Windows.Forms.DateTimePickerFormat.Long;
-            this.datePickup.Location = new System.Drawing.Point(132, 331);
+            this.datePickup.Location = new System.Drawing.Point(317, 395);
             this.datePickup.MaxDate = new System.DateTime(9998, 12, 31, 0, 0, 0, 0);
             this.datePickup.MinDate = new System.DateTime(1753, 1, 1, 0, 0, 0, 0);
             this.datePickup.Name = "datePickup";
@@ -119,7 +86,7 @@
             // txtConNo
             // 
             this.txtConNo.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtConNo.Location = new System.Drawing.Point(49, 156);
+            this.txtConNo.Location = new System.Drawing.Point(234, 220);
             this.txtConNo.Multiline = true;
             this.txtConNo.Name = "txtConNo";
             this.txtConNo.Size = new System.Drawing.Size(299, 22);
@@ -130,7 +97,7 @@
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label10.ForeColor = System.Drawing.Color.SaddleBrown;
-            this.label10.Location = new System.Drawing.Point(49, 132);
+            this.label10.Location = new System.Drawing.Point(234, 196);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(138, 21);
             this.label10.TabIndex = 24;
@@ -139,7 +106,7 @@
             // cmbCategory
             // 
             this.cmbCategory.FormattingEnabled = true;
-            this.cmbCategory.Location = new System.Drawing.Point(49, 215);
+            this.cmbCategory.Location = new System.Drawing.Point(234, 279);
             this.cmbCategory.Name = "cmbCategory";
             this.cmbCategory.Size = new System.Drawing.Size(299, 21);
             this.cmbCategory.TabIndex = 23;
@@ -149,19 +116,11 @@
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.ForeColor = System.Drawing.Color.SaddleBrown;
-            this.label9.Location = new System.Drawing.Point(49, 191);
+            this.label9.Location = new System.Drawing.Point(234, 255);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(82, 21);
             this.label9.TabIndex = 22;
             this.label9.Text = "Category:";
-            // 
-            // splitter1
-            // 
-            this.splitter1.Location = new System.Drawing.Point(0, 0);
-            this.splitter1.Name = "splitter1";
-            this.splitter1.Size = new System.Drawing.Size(3, 526);
-            this.splitter1.TabIndex = 21;
-            this.splitter1.TabStop = false;
             // 
             // btnDeleteSo
             // 
@@ -169,7 +128,7 @@
             this.btnDeleteSo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnDeleteSo.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDeleteSo.ForeColor = System.Drawing.Color.White;
-            this.btnDeleteSo.Location = new System.Drawing.Point(244, 469);
+            this.btnDeleteSo.Location = new System.Drawing.Point(429, 533);
             this.btnDeleteSo.Name = "btnDeleteSo";
             this.btnDeleteSo.Size = new System.Drawing.Size(91, 29);
             this.btnDeleteSo.TabIndex = 20;
@@ -182,7 +141,7 @@
             this.btnUpdateSo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnUpdateSo.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnUpdateSo.ForeColor = System.Drawing.Color.White;
-            this.btnUpdateSo.Location = new System.Drawing.Point(147, 469);
+            this.btnUpdateSo.Location = new System.Drawing.Point(332, 533);
             this.btnUpdateSo.Name = "btnUpdateSo";
             this.btnUpdateSo.Size = new System.Drawing.Size(91, 29);
             this.btnUpdateSo.TabIndex = 19;
@@ -195,7 +154,7 @@
             this.btnAddOrder.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnAddOrder.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAddOrder.ForeColor = System.Drawing.Color.White;
-            this.btnAddOrder.Location = new System.Drawing.Point(50, 469);
+            this.btnAddOrder.Location = new System.Drawing.Point(235, 533);
             this.btnAddOrder.Name = "btnAddOrder";
             this.btnAddOrder.Size = new System.Drawing.Size(91, 29);
             this.btnAddOrder.TabIndex = 18;
@@ -205,7 +164,7 @@
             // cmbStat
             // 
             this.cmbStat.FormattingEnabled = true;
-            this.cmbStat.Location = new System.Drawing.Point(49, 418);
+            this.cmbStat.Location = new System.Drawing.Point(234, 482);
             this.cmbStat.Name = "cmbStat";
             this.cmbStat.Size = new System.Drawing.Size(186, 21);
             this.cmbStat.TabIndex = 17;
@@ -215,7 +174,7 @@
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.ForeColor = System.Drawing.Color.SaddleBrown;
-            this.label7.Location = new System.Drawing.Point(49, 394);
+            this.label7.Location = new System.Drawing.Point(234, 458);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(60, 21);
             this.label7.TabIndex = 16;
@@ -226,7 +185,7 @@
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.Color.SaddleBrown;
-            this.label6.Location = new System.Drawing.Point(142, 307);
+            this.label6.Location = new System.Drawing.Point(327, 371);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(105, 21);
             this.label6.TabIndex = 14;
@@ -236,7 +195,7 @@
             // txtQuantity
             // 
             this.txtQuantity.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtQuantity.Location = new System.Drawing.Point(49, 331);
+            this.txtQuantity.Location = new System.Drawing.Point(234, 395);
             this.txtQuantity.Multiline = true;
             this.txtQuantity.Name = "txtQuantity";
             this.txtQuantity.Size = new System.Drawing.Size(78, 22);
@@ -245,7 +204,7 @@
             // cmbProduct
             // 
             this.cmbProduct.FormattingEnabled = true;
-            this.cmbProduct.Location = new System.Drawing.Point(49, 273);
+            this.cmbProduct.Location = new System.Drawing.Point(234, 337);
             this.cmbProduct.Name = "cmbProduct";
             this.cmbProduct.Size = new System.Drawing.Size(299, 21);
             this.cmbProduct.TabIndex = 12;
@@ -253,7 +212,7 @@
             // txtCustName
             // 
             this.txtCustName.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtCustName.Location = new System.Drawing.Point(49, 97);
+            this.txtCustName.Location = new System.Drawing.Point(234, 161);
             this.txtCustName.Multiline = true;
             this.txtCustName.Name = "txtCustName";
             this.txtCustName.Size = new System.Drawing.Size(299, 22);
@@ -265,7 +224,7 @@
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.SaddleBrown;
-            this.label5.Location = new System.Drawing.Point(49, 307);
+            this.label5.Location = new System.Drawing.Point(234, 371);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(77, 21);
             this.label5.TabIndex = 7;
@@ -276,7 +235,7 @@
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.SaddleBrown;
-            this.label4.Location = new System.Drawing.Point(49, 249);
+            this.label4.Location = new System.Drawing.Point(234, 313);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(74, 21);
             this.label4.TabIndex = 6;
@@ -287,7 +246,7 @@
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.SaddleBrown;
-            this.label3.Location = new System.Drawing.Point(49, 73);
+            this.label3.Location = new System.Drawing.Point(234, 137);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(135, 21);
             this.label3.TabIndex = 5;
@@ -298,7 +257,7 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Imprint MT Shadow", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.SaddleBrown;
-            this.label1.Location = new System.Drawing.Point(87, 27);
+            this.label1.Location = new System.Drawing.Point(272, 91);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(197, 28);
             this.label1.TabIndex = 4;
@@ -318,7 +277,7 @@
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Imprint MT Shadow", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.ForeColor = System.Drawing.Color.SaddleBrown;
-            this.label8.Location = new System.Drawing.Point(23, 27);
+            this.label8.Location = new System.Drawing.Point(23, 17);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(83, 28);
             this.label8.TabIndex = 5;
@@ -326,155 +285,150 @@
             // 
             // guna2GradientPanel1
             // 
-            this.guna2GradientPanel1.Controls.Add(this.btnOrdLogout);
-            this.guna2GradientPanel1.Controls.Add(this.btnOrdSettings);
-            this.guna2GradientPanel1.Controls.Add(this.btnOrdUsers);
-            this.guna2GradientPanel1.Controls.Add(this.btnOrdStocks);
-            this.guna2GradientPanel1.Controls.Add(this.btnOrdSales);
-            this.guna2GradientPanel1.Controls.Add(this.btnOrdInventory);
-            this.guna2GradientPanel1.Controls.Add(this.btnOrdOrders);
+            this.guna2GradientPanel1.Controls.Add(this.btnDbLogout);
+            this.guna2GradientPanel1.Controls.Add(this.btnDbSettings);
+            this.guna2GradientPanel1.Controls.Add(this.btnDbUsers);
+            this.guna2GradientPanel1.Controls.Add(this.btnDbStocks);
+            this.guna2GradientPanel1.Controls.Add(this.btnDbSales);
+            this.guna2GradientPanel1.Controls.Add(this.btnDbInventory);
+            this.guna2GradientPanel1.Controls.Add(this.btnDbOrders);
             this.guna2GradientPanel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.guna2GradientPanel1.FillColor = System.Drawing.Color.White;
             this.guna2GradientPanel1.FillColor2 = System.Drawing.Color.LightPink;
             this.guna2GradientPanel1.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.Vertical;
-            this.guna2GradientPanel1.Location = new System.Drawing.Point(0, 66);
+            this.guna2GradientPanel1.Location = new System.Drawing.Point(0, 60);
             this.guna2GradientPanel1.Name = "guna2GradientPanel1";
-            this.guna2GradientPanel1.Size = new System.Drawing.Size(200, 545);
-            this.guna2GradientPanel1.TabIndex = 12;
+            this.guna2GradientPanel1.Size = new System.Drawing.Size(200, 551);
+            this.guna2GradientPanel1.TabIndex = 14;
             // 
-            // btnOrdLogout
+            // btnDbLogout
             // 
-            this.btnOrdLogout.BackColor = System.Drawing.Color.Transparent;
-            this.btnOrdLogout.FlatAppearance.BorderSize = 0;
-            this.btnOrdLogout.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnOrdLogout.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnOrdLogout.ForeColor = System.Drawing.Color.SaddleBrown;
-            this.btnOrdLogout.Location = new System.Drawing.Point(1, 486);
-            this.btnOrdLogout.Name = "btnOrdLogout";
-            this.btnOrdLogout.Size = new System.Drawing.Size(197, 33);
-            this.btnOrdLogout.TabIndex = 16;
-            this.btnOrdLogout.Text = "     Logout";
-            this.btnOrdLogout.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnOrdLogout.UseVisualStyleBackColor = false;
-            this.btnOrdLogout.Click += new System.EventHandler(this.btnOrdLogout_Click);
+            this.btnDbLogout.BackColor = System.Drawing.Color.Transparent;
+            this.btnDbLogout.FlatAppearance.BorderSize = 0;
+            this.btnDbLogout.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnDbLogout.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDbLogout.ForeColor = System.Drawing.Color.SaddleBrown;
+            this.btnDbLogout.Location = new System.Drawing.Point(1, 486);
+            this.btnDbLogout.Name = "btnDbLogout";
+            this.btnDbLogout.Size = new System.Drawing.Size(197, 33);
+            this.btnDbLogout.TabIndex = 16;
+            this.btnDbLogout.Text = "     Logout";
+            this.btnDbLogout.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnDbLogout.UseVisualStyleBackColor = false;
             // 
-            // btnOrdSettings
+            // btnDbSettings
             // 
-            this.btnOrdSettings.BackColor = System.Drawing.Color.Transparent;
-            this.btnOrdSettings.FlatAppearance.BorderSize = 0;
-            this.btnOrdSettings.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnOrdSettings.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnOrdSettings.ForeColor = System.Drawing.Color.SaddleBrown;
-            this.btnOrdSettings.Location = new System.Drawing.Point(1, 442);
-            this.btnOrdSettings.Name = "btnOrdSettings";
-            this.btnOrdSettings.Size = new System.Drawing.Size(197, 33);
-            this.btnOrdSettings.TabIndex = 15;
-            this.btnOrdSettings.Text = "     Settings";
-            this.btnOrdSettings.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnOrdSettings.UseVisualStyleBackColor = false;
+            this.btnDbSettings.BackColor = System.Drawing.Color.Transparent;
+            this.btnDbSettings.FlatAppearance.BorderSize = 0;
+            this.btnDbSettings.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnDbSettings.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDbSettings.ForeColor = System.Drawing.Color.SaddleBrown;
+            this.btnDbSettings.Location = new System.Drawing.Point(1, 442);
+            this.btnDbSettings.Name = "btnDbSettings";
+            this.btnDbSettings.Size = new System.Drawing.Size(197, 33);
+            this.btnDbSettings.TabIndex = 15;
+            this.btnDbSettings.Text = "     Settings";
+            this.btnDbSettings.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnDbSettings.UseVisualStyleBackColor = false;
             // 
-            // btnOrdUsers
+            // btnDbUsers
             // 
-            this.btnOrdUsers.BackColor = System.Drawing.Color.Transparent;
-            this.btnOrdUsers.FlatAppearance.BorderSize = 0;
-            this.btnOrdUsers.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnOrdUsers.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnOrdUsers.ForeColor = System.Drawing.Color.SaddleBrown;
-            this.btnOrdUsers.Location = new System.Drawing.Point(1, 398);
-            this.btnOrdUsers.Name = "btnOrdUsers";
-            this.btnOrdUsers.Size = new System.Drawing.Size(197, 33);
-            this.btnOrdUsers.TabIndex = 14;
-            this.btnOrdUsers.Text = "     Users";
-            this.btnOrdUsers.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnOrdUsers.UseVisualStyleBackColor = false;
+            this.btnDbUsers.BackColor = System.Drawing.Color.Transparent;
+            this.btnDbUsers.FlatAppearance.BorderSize = 0;
+            this.btnDbUsers.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnDbUsers.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDbUsers.ForeColor = System.Drawing.Color.SaddleBrown;
+            this.btnDbUsers.Location = new System.Drawing.Point(1, 398);
+            this.btnDbUsers.Name = "btnDbUsers";
+            this.btnDbUsers.Size = new System.Drawing.Size(197, 33);
+            this.btnDbUsers.TabIndex = 14;
+            this.btnDbUsers.Text = "     Users";
+            this.btnDbUsers.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnDbUsers.UseVisualStyleBackColor = false;
             // 
-            // btnOrdStocks
+            // btnDbStocks
             // 
-            this.btnOrdStocks.BackColor = System.Drawing.Color.Transparent;
-            this.btnOrdStocks.FlatAppearance.BorderSize = 0;
-            this.btnOrdStocks.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnOrdStocks.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnOrdStocks.ForeColor = System.Drawing.Color.SaddleBrown;
-            this.btnOrdStocks.Location = new System.Drawing.Point(2, 179);
-            this.btnOrdStocks.Name = "btnOrdStocks";
-            this.btnOrdStocks.Size = new System.Drawing.Size(197, 33);
-            this.btnOrdStocks.TabIndex = 13;
-            this.btnOrdStocks.Text = "     Stocks";
-            this.btnOrdStocks.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnOrdStocks.UseVisualStyleBackColor = false;
-            this.btnOrdStocks.Click += new System.EventHandler(this.btnOrdStocks_Click);
+            this.btnDbStocks.BackColor = System.Drawing.Color.Transparent;
+            this.btnDbStocks.FlatAppearance.BorderSize = 0;
+            this.btnDbStocks.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnDbStocks.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDbStocks.ForeColor = System.Drawing.Color.SaddleBrown;
+            this.btnDbStocks.Location = new System.Drawing.Point(2, 179);
+            this.btnDbStocks.Name = "btnDbStocks";
+            this.btnDbStocks.Size = new System.Drawing.Size(197, 33);
+            this.btnDbStocks.TabIndex = 13;
+            this.btnDbStocks.Text = "     Stocks";
+            this.btnDbStocks.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnDbStocks.UseVisualStyleBackColor = false;
             // 
-            // btnOrdSales
+            // btnDbSales
             // 
-            this.btnOrdSales.BackColor = System.Drawing.Color.Transparent;
-            this.btnOrdSales.FlatAppearance.BorderSize = 0;
-            this.btnOrdSales.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnOrdSales.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnOrdSales.ForeColor = System.Drawing.Color.SaddleBrown;
-            this.btnOrdSales.Location = new System.Drawing.Point(1, 135);
-            this.btnOrdSales.Name = "btnOrdSales";
-            this.btnOrdSales.Size = new System.Drawing.Size(197, 33);
-            this.btnOrdSales.TabIndex = 12;
-            this.btnOrdSales.Text = "     Sales Report";
-            this.btnOrdSales.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnOrdSales.UseVisualStyleBackColor = false;
-            this.btnOrdSales.Click += new System.EventHandler(this.btnOrdSales_Click);
+            this.btnDbSales.BackColor = System.Drawing.Color.Transparent;
+            this.btnDbSales.FlatAppearance.BorderSize = 0;
+            this.btnDbSales.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnDbSales.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDbSales.ForeColor = System.Drawing.Color.SaddleBrown;
+            this.btnDbSales.Location = new System.Drawing.Point(1, 135);
+            this.btnDbSales.Name = "btnDbSales";
+            this.btnDbSales.Size = new System.Drawing.Size(197, 33);
+            this.btnDbSales.TabIndex = 12;
+            this.btnDbSales.Text = "     Sales Report";
+            this.btnDbSales.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnDbSales.UseVisualStyleBackColor = false;
             // 
-            // btnOrdInventory
+            // btnDbInventory
             // 
-            this.btnOrdInventory.BackColor = System.Drawing.Color.Transparent;
-            this.btnOrdInventory.FlatAppearance.BorderSize = 0;
-            this.btnOrdInventory.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnOrdInventory.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnOrdInventory.ForeColor = System.Drawing.Color.SaddleBrown;
-            this.btnOrdInventory.Location = new System.Drawing.Point(1, 91);
-            this.btnOrdInventory.Name = "btnOrdInventory";
-            this.btnOrdInventory.Size = new System.Drawing.Size(197, 33);
-            this.btnOrdInventory.TabIndex = 11;
-            this.btnOrdInventory.Text = "     Inventory";
-            this.btnOrdInventory.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnOrdInventory.UseVisualStyleBackColor = false;
-            this.btnOrdInventory.Click += new System.EventHandler(this.btnOrdInventory_Click);
+            this.btnDbInventory.BackColor = System.Drawing.Color.Transparent;
+            this.btnDbInventory.FlatAppearance.BorderSize = 0;
+            this.btnDbInventory.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnDbInventory.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDbInventory.ForeColor = System.Drawing.Color.SaddleBrown;
+            this.btnDbInventory.Location = new System.Drawing.Point(1, 91);
+            this.btnDbInventory.Name = "btnDbInventory";
+            this.btnDbInventory.Size = new System.Drawing.Size(197, 33);
+            this.btnDbInventory.TabIndex = 11;
+            this.btnDbInventory.Text = "     Inventory";
+            this.btnDbInventory.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnDbInventory.UseVisualStyleBackColor = false;
             // 
-            // btnOrdOrders
+            // btnDbOrders
             // 
-            this.btnOrdOrders.BackColor = System.Drawing.Color.Transparent;
-            this.btnOrdOrders.FlatAppearance.BorderSize = 0;
-            this.btnOrdOrders.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnOrdOrders.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnOrdOrders.ForeColor = System.Drawing.Color.SaddleBrown;
-            this.btnOrdOrders.Location = new System.Drawing.Point(1, 47);
-            this.btnOrdOrders.Name = "btnOrdOrders";
-            this.btnOrdOrders.Size = new System.Drawing.Size(197, 33);
-            this.btnOrdOrders.TabIndex = 10;
-            this.btnOrdOrders.Text = "     Orders";
-            this.btnOrdOrders.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnOrdOrders.UseVisualStyleBackColor = false;
+            this.btnDbOrders.BackColor = System.Drawing.Color.Transparent;
+            this.btnDbOrders.FlatAppearance.BorderSize = 0;
+            this.btnDbOrders.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnDbOrders.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDbOrders.ForeColor = System.Drawing.Color.SaddleBrown;
+            this.btnDbOrders.Location = new System.Drawing.Point(1, 47);
+            this.btnDbOrders.Name = "btnDbOrders";
+            this.btnDbOrders.Size = new System.Drawing.Size(197, 33);
+            this.btnDbOrders.TabIndex = 10;
+            this.btnDbOrders.Text = "     Orders";
+            this.btnDbOrders.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnDbOrders.UseVisualStyleBackColor = false;
             // 
             // guna2GradientPanel2
             // 
             this.guna2GradientPanel2.Controls.Add(this.pictureBox1);
             this.guna2GradientPanel2.Controls.Add(this.label2);
-            this.guna2GradientPanel2.Controls.Add(this.pictureBox3);
             this.guna2GradientPanel2.Dock = System.Windows.Forms.DockStyle.Top;
             this.guna2GradientPanel2.FillColor = System.Drawing.Color.LightPink;
             this.guna2GradientPanel2.FillColor2 = System.Drawing.Color.White;
             this.guna2GradientPanel2.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.Vertical;
             this.guna2GradientPanel2.Location = new System.Drawing.Point(0, 0);
             this.guna2GradientPanel2.Name = "guna2GradientPanel2";
-            this.guna2GradientPanel2.Size = new System.Drawing.Size(1084, 66);
-            this.guna2GradientPanel2.TabIndex = 11;
+            this.guna2GradientPanel2.Size = new System.Drawing.Size(1084, 60);
+            this.guna2GradientPanel2.TabIndex = 13;
             // 
             // pictureBox1
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.BackgroundImage")));
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox1.Location = new System.Drawing.Point(56, 0);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox1.Location = new System.Drawing.Point(11, 7);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(53, 54);
-            this.pictureBox1.TabIndex = 8;
+            this.pictureBox1.Size = new System.Drawing.Size(45, 45);
+            this.pictureBox1.TabIndex = 5;
             this.pictureBox1.TabStop = false;
             // 
             // label2
@@ -483,25 +437,11 @@
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Imprint MT Shadow", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.SaddleBrown;
-            this.label2.Location = new System.Drawing.Point(125, 14);
+            this.label2.Location = new System.Drawing.Point(66, 18);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(111, 25);
-            this.label2.TabIndex = 7;
-            this.label2.Text = "Dashboard";
-            // 
-            // pictureBox3
-            // 
-            this.pictureBox3.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.pictureBox3.ErrorImage = null;
-            this.pictureBox3.Image = global::InventorySystem.Properties.Resources.icons8_menu_50;
-            this.pictureBox3.InitialImage = null;
-            this.pictureBox3.Location = new System.Drawing.Point(16, 15);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(22, 24);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox3.TabIndex = 6;
-            this.pictureBox3.TabStop = false;
+            this.label2.Size = new System.Drawing.Size(74, 25);
+            this.label2.TabIndex = 4;
+            this.label2.Text = "Orders";
             // 
             // frmOrders
             // 
@@ -509,28 +449,42 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Linen;
             this.ClientSize = new System.Drawing.Size(1084, 611);
+            this.Controls.Add(this.datePickup);
             this.Controls.Add(this.guna2GradientPanel1);
             this.Controls.Add(this.guna2GradientPanel2);
+            this.Controls.Add(this.txtConNo);
             this.Controls.Add(this.panel4);
-            this.Controls.Add(this.panel3);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.label10);
+            this.Controls.Add(this.label7);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.cmbStat);
+            this.Controls.Add(this.cmbCategory);
+            this.Controls.Add(this.label6);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.btnAddOrder);
+            this.Controls.Add(this.label9);
+            this.Controls.Add(this.txtQuantity);
+            this.Controls.Add(this.label5);
+            this.Controls.Add(this.btnUpdateSo);
+            this.Controls.Add(this.txtCustName);
+            this.Controls.Add(this.cmbProduct);
+            this.Controls.Add(this.btnDeleteSo);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "frmOrders";
             this.Text = "Orders";
-            this.panel3.ResumeLayout(false);
-            this.panel3.PerformLayout();
             this.panel4.ResumeLayout(false);
             this.panel4.PerformLayout();
             this.guna2GradientPanel1.ResumeLayout(false);
             this.guna2GradientPanel2.ResumeLayout(false);
             this.guna2GradientPanel2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
-        private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label5;
@@ -546,23 +500,21 @@
         private System.Windows.Forms.Button btnAddOrder;
         private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.Splitter splitter1;
         private System.Windows.Forms.ComboBox cmbCategory;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.TextBox txtConNo;
         private System.Windows.Forms.Label label10;
+        private Guna.UI2.WinForms.Guna2DateTimePicker datePickup;
         private Guna.UI2.WinForms.Guna2GradientPanel guna2GradientPanel1;
-        private System.Windows.Forms.Button btnOrdLogout;
-        private System.Windows.Forms.Button btnOrdSettings;
-        private System.Windows.Forms.Button btnOrdUsers;
-        private System.Windows.Forms.Button btnOrdStocks;
-        private System.Windows.Forms.Button btnOrdSales;
-        private System.Windows.Forms.Button btnOrdInventory;
-        private System.Windows.Forms.Button btnOrdOrders;
+        private System.Windows.Forms.Button btnDbLogout;
+        private System.Windows.Forms.Button btnDbSettings;
+        private System.Windows.Forms.Button btnDbUsers;
+        private System.Windows.Forms.Button btnDbStocks;
+        private System.Windows.Forms.Button btnDbSales;
+        private System.Windows.Forms.Button btnDbInventory;
+        private System.Windows.Forms.Button btnDbOrders;
         private Guna.UI2.WinForms.Guna2GradientPanel guna2GradientPanel2;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.PictureBox pictureBox3;
-        private Guna.UI2.WinForms.Guna2DateTimePicker datePickup;
     }
 }

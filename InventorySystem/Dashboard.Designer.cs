@@ -29,13 +29,13 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea5 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend5 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series21 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.Series series22 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.Series series23 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.Series series24 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.Series series25 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea2 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend2 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series6 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.Series series7 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.Series series8 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.Series series9 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.Series series10 = new System.Windows.Forms.DataVisualization.Charting.Series();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmDashboard));
             this.guna2GradientPanel1 = new Guna.UI2.WinForms.Guna2GradientPanel();
             this.btnDbLogout = new System.Windows.Forms.Button();
@@ -63,7 +63,6 @@
             this.monthCalendar1 = new System.Windows.Forms.MonthCalendar();
             this.guna2AnimateWindow1 = new Guna.UI2.WinForms.Guna2AnimateWindow(this.components);
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.guna2GradientPanel1.SuspendLayout();
             this.guna2GradientPanel2.SuspendLayout();
             this.guna2ShadowPanel1.SuspendLayout();
@@ -74,7 +73,6 @@
             this.guna2Panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.chartSales)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.SuspendLayout();
             // 
             // guna2GradientPanel1
@@ -90,10 +88,9 @@
             this.guna2GradientPanel1.FillColor = System.Drawing.Color.White;
             this.guna2GradientPanel1.FillColor2 = System.Drawing.Color.LightPink;
             this.guna2GradientPanel1.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.Vertical;
-            this.guna2GradientPanel1.Location = new System.Drawing.Point(0, 81);
-            this.guna2GradientPanel1.Margin = new System.Windows.Forms.Padding(4);
+            this.guna2GradientPanel1.Location = new System.Drawing.Point(0, 60);
             this.guna2GradientPanel1.Name = "guna2GradientPanel1";
-            this.guna2GradientPanel1.Size = new System.Drawing.Size(267, 671);
+            this.guna2GradientPanel1.Size = new System.Drawing.Size(200, 551);
             this.guna2GradientPanel1.TabIndex = 12;
             // 
             // btnDbLogout
@@ -103,10 +100,9 @@
             this.btnDbLogout.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnDbLogout.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDbLogout.ForeColor = System.Drawing.Color.SaddleBrown;
-            this.btnDbLogout.Location = new System.Drawing.Point(1, 598);
-            this.btnDbLogout.Margin = new System.Windows.Forms.Padding(4);
+            this.btnDbLogout.Location = new System.Drawing.Point(1, 486);
             this.btnDbLogout.Name = "btnDbLogout";
-            this.btnDbLogout.Size = new System.Drawing.Size(263, 41);
+            this.btnDbLogout.Size = new System.Drawing.Size(197, 33);
             this.btnDbLogout.TabIndex = 16;
             this.btnDbLogout.Text = "     Logout";
             this.btnDbLogout.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -120,10 +116,9 @@
             this.btnDbSettings.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnDbSettings.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDbSettings.ForeColor = System.Drawing.Color.SaddleBrown;
-            this.btnDbSettings.Location = new System.Drawing.Point(1, 544);
-            this.btnDbSettings.Margin = new System.Windows.Forms.Padding(4);
+            this.btnDbSettings.Location = new System.Drawing.Point(1, 442);
             this.btnDbSettings.Name = "btnDbSettings";
-            this.btnDbSettings.Size = new System.Drawing.Size(263, 41);
+            this.btnDbSettings.Size = new System.Drawing.Size(197, 33);
             this.btnDbSettings.TabIndex = 15;
             this.btnDbSettings.Text = "     Settings";
             this.btnDbSettings.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -136,10 +131,9 @@
             this.btnDbUsers.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnDbUsers.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDbUsers.ForeColor = System.Drawing.Color.SaddleBrown;
-            this.btnDbUsers.Location = new System.Drawing.Point(1, 490);
-            this.btnDbUsers.Margin = new System.Windows.Forms.Padding(4);
+            this.btnDbUsers.Location = new System.Drawing.Point(1, 398);
             this.btnDbUsers.Name = "btnDbUsers";
-            this.btnDbUsers.Size = new System.Drawing.Size(263, 41);
+            this.btnDbUsers.Size = new System.Drawing.Size(197, 33);
             this.btnDbUsers.TabIndex = 14;
             this.btnDbUsers.Text = "     Users";
             this.btnDbUsers.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -153,10 +147,9 @@
             this.btnDbStocks.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnDbStocks.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDbStocks.ForeColor = System.Drawing.Color.SaddleBrown;
-            this.btnDbStocks.Location = new System.Drawing.Point(3, 220);
-            this.btnDbStocks.Margin = new System.Windows.Forms.Padding(4);
+            this.btnDbStocks.Location = new System.Drawing.Point(2, 179);
             this.btnDbStocks.Name = "btnDbStocks";
-            this.btnDbStocks.Size = new System.Drawing.Size(263, 41);
+            this.btnDbStocks.Size = new System.Drawing.Size(197, 33);
             this.btnDbStocks.TabIndex = 13;
             this.btnDbStocks.Text = "     Stocks";
             this.btnDbStocks.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -170,10 +163,9 @@
             this.btnDbSales.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnDbSales.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDbSales.ForeColor = System.Drawing.Color.SaddleBrown;
-            this.btnDbSales.Location = new System.Drawing.Point(1, 166);
-            this.btnDbSales.Margin = new System.Windows.Forms.Padding(4);
+            this.btnDbSales.Location = new System.Drawing.Point(1, 135);
             this.btnDbSales.Name = "btnDbSales";
-            this.btnDbSales.Size = new System.Drawing.Size(263, 41);
+            this.btnDbSales.Size = new System.Drawing.Size(197, 33);
             this.btnDbSales.TabIndex = 12;
             this.btnDbSales.Text = "     Sales Report";
             this.btnDbSales.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -187,10 +179,9 @@
             this.btnDbInventory.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnDbInventory.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDbInventory.ForeColor = System.Drawing.Color.SaddleBrown;
-            this.btnDbInventory.Location = new System.Drawing.Point(1, 112);
-            this.btnDbInventory.Margin = new System.Windows.Forms.Padding(4);
+            this.btnDbInventory.Location = new System.Drawing.Point(1, 91);
             this.btnDbInventory.Name = "btnDbInventory";
-            this.btnDbInventory.Size = new System.Drawing.Size(263, 41);
+            this.btnDbInventory.Size = new System.Drawing.Size(197, 33);
             this.btnDbInventory.TabIndex = 11;
             this.btnDbInventory.Text = "     Inventory";
             this.btnDbInventory.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -204,10 +195,9 @@
             this.btnDbOrders.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnDbOrders.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDbOrders.ForeColor = System.Drawing.Color.SaddleBrown;
-            this.btnDbOrders.Location = new System.Drawing.Point(1, 58);
-            this.btnDbOrders.Margin = new System.Windows.Forms.Padding(4);
+            this.btnDbOrders.Location = new System.Drawing.Point(1, 47);
             this.btnDbOrders.Name = "btnDbOrders";
-            this.btnDbOrders.Size = new System.Drawing.Size(263, 41);
+            this.btnDbOrders.Size = new System.Drawing.Size(197, 33);
             this.btnDbOrders.TabIndex = 10;
             this.btnDbOrders.Text = "     Orders";
             this.btnDbOrders.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -218,15 +208,13 @@
             // 
             this.guna2GradientPanel2.Controls.Add(this.pictureBox1);
             this.guna2GradientPanel2.Controls.Add(this.label1);
-            this.guna2GradientPanel2.Controls.Add(this.pictureBox3);
             this.guna2GradientPanel2.Dock = System.Windows.Forms.DockStyle.Top;
             this.guna2GradientPanel2.FillColor = System.Drawing.Color.LightPink;
             this.guna2GradientPanel2.FillColor2 = System.Drawing.Color.White;
             this.guna2GradientPanel2.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.Vertical;
             this.guna2GradientPanel2.Location = new System.Drawing.Point(0, 0);
-            this.guna2GradientPanel2.Margin = new System.Windows.Forms.Padding(4);
             this.guna2GradientPanel2.Name = "guna2GradientPanel2";
-            this.guna2GradientPanel2.Size = new System.Drawing.Size(1445, 81);
+            this.guna2GradientPanel2.Size = new System.Drawing.Size(1084, 60);
             this.guna2GradientPanel2.TabIndex = 11;
             // 
             // label1
@@ -235,10 +223,9 @@
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Imprint MT Shadow", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.SaddleBrown;
-            this.label1.Location = new System.Drawing.Point(160, 26);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Location = new System.Drawing.Point(66, 18);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(140, 32);
+            this.label1.Size = new System.Drawing.Size(111, 25);
             this.label1.TabIndex = 4;
             this.label1.Text = "Dashboard";
             // 
@@ -247,12 +234,11 @@
             this.guna2ShadowPanel1.BackColor = System.Drawing.Color.Transparent;
             this.guna2ShadowPanel1.Controls.Add(this.label2);
             this.guna2ShadowPanel1.FillColor = System.Drawing.Color.White;
-            this.guna2ShadowPanel1.Location = new System.Drawing.Point(295, 102);
-            this.guna2ShadowPanel1.Margin = new System.Windows.Forms.Padding(4);
+            this.guna2ShadowPanel1.Location = new System.Drawing.Point(222, 83);
             this.guna2ShadowPanel1.Name = "guna2ShadowPanel1";
             this.guna2ShadowPanel1.Radius = 5;
             this.guna2ShadowPanel1.ShadowColor = System.Drawing.Color.Black;
-            this.guna2ShadowPanel1.Size = new System.Drawing.Size(267, 123);
+            this.guna2ShadowPanel1.Size = new System.Drawing.Size(200, 100);
             this.guna2ShadowPanel1.TabIndex = 13;
             // 
             // label2
@@ -261,10 +247,9 @@
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Imprint MT Shadow", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.SaddleBrown;
-            this.label2.Location = new System.Drawing.Point(23, 15);
-            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label2.Location = new System.Drawing.Point(17, 12);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(187, 32);
+            this.label2.Size = new System.Drawing.Size(146, 25);
             this.label2.TabIndex = 5;
             this.label2.Text = "Total Products";
             // 
@@ -273,12 +258,11 @@
             this.guna2ShadowPanel2.BackColor = System.Drawing.Color.Transparent;
             this.guna2ShadowPanel2.Controls.Add(this.label3);
             this.guna2ShadowPanel2.FillColor = System.Drawing.Color.White;
-            this.guna2ShadowPanel2.Location = new System.Drawing.Point(583, 102);
-            this.guna2ShadowPanel2.Margin = new System.Windows.Forms.Padding(4);
+            this.guna2ShadowPanel2.Location = new System.Drawing.Point(428, 83);
             this.guna2ShadowPanel2.Name = "guna2ShadowPanel2";
             this.guna2ShadowPanel2.Radius = 5;
             this.guna2ShadowPanel2.ShadowColor = System.Drawing.Color.Black;
-            this.guna2ShadowPanel2.Size = new System.Drawing.Size(267, 123);
+            this.guna2ShadowPanel2.Size = new System.Drawing.Size(200, 100);
             this.guna2ShadowPanel2.TabIndex = 14;
             // 
             // label3
@@ -287,10 +271,9 @@
             this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Font = new System.Drawing.Font("Imprint MT Shadow", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.SaddleBrown;
-            this.label3.Location = new System.Drawing.Point(21, 15);
-            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label3.Location = new System.Drawing.Point(16, 12);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(127, 32);
+            this.label3.Size = new System.Drawing.Size(100, 25);
             this.label3.TabIndex = 5;
             this.label3.Text = "Top Sales";
             // 
@@ -299,12 +282,11 @@
             this.guna2ShadowPanel4.BackColor = System.Drawing.Color.Transparent;
             this.guna2ShadowPanel4.Controls.Add(this.label5);
             this.guna2ShadowPanel4.FillColor = System.Drawing.Color.White;
-            this.guna2ShadowPanel4.Location = new System.Drawing.Point(871, 102);
-            this.guna2ShadowPanel4.Margin = new System.Windows.Forms.Padding(4);
+            this.guna2ShadowPanel4.Location = new System.Drawing.Point(634, 83);
             this.guna2ShadowPanel4.Name = "guna2ShadowPanel4";
             this.guna2ShadowPanel4.Radius = 5;
             this.guna2ShadowPanel4.ShadowColor = System.Drawing.Color.Black;
-            this.guna2ShadowPanel4.Size = new System.Drawing.Size(267, 123);
+            this.guna2ShadowPanel4.Size = new System.Drawing.Size(200, 100);
             this.guna2ShadowPanel4.TabIndex = 15;
             // 
             // label5
@@ -313,10 +295,9 @@
             this.label5.BackColor = System.Drawing.Color.Transparent;
             this.label5.Font = new System.Drawing.Font("Imprint MT Shadow", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.SaddleBrown;
-            this.label5.Location = new System.Drawing.Point(25, 15);
-            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label5.Location = new System.Drawing.Point(19, 12);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(150, 32);
+            this.label5.Size = new System.Drawing.Size(118, 25);
             this.label5.TabIndex = 5;
             this.label5.Text = "Low Stocks";
             // 
@@ -325,12 +306,11 @@
             this.guna2ShadowPanel5.BackColor = System.Drawing.Color.Transparent;
             this.guna2ShadowPanel5.Controls.Add(this.label6);
             this.guna2ShadowPanel5.FillColor = System.Drawing.Color.White;
-            this.guna2ShadowPanel5.Location = new System.Drawing.Point(1151, 329);
-            this.guna2ShadowPanel5.Margin = new System.Windows.Forms.Padding(4);
+            this.guna2ShadowPanel5.Location = new System.Drawing.Point(852, 255);
             this.guna2ShadowPanel5.Name = "guna2ShadowPanel5";
             this.guna2ShadowPanel5.Radius = 5;
             this.guna2ShadowPanel5.ShadowColor = System.Drawing.Color.Black;
-            this.guna2ShadowPanel5.Size = new System.Drawing.Size(267, 287);
+            this.guna2ShadowPanel5.Size = new System.Drawing.Size(215, 233);
             this.guna2ShadowPanel5.TabIndex = 16;
             // 
             // label6
@@ -339,10 +319,9 @@
             this.label6.BackColor = System.Drawing.Color.Transparent;
             this.label6.Font = new System.Drawing.Font("Imprint MT Shadow", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.Color.SaddleBrown;
-            this.label6.Location = new System.Drawing.Point(12, 15);
-            this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label6.Location = new System.Drawing.Point(9, 12);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(230, 28);
+            this.label6.Size = new System.Drawing.Size(182, 23);
             this.label6.TabIndex = 5;
             this.label6.Text = "Scheduled Deliveries";
             // 
@@ -351,12 +330,11 @@
             this.guna2ShadowPanel6.BackColor = System.Drawing.Color.Transparent;
             this.guna2ShadowPanel6.Controls.Add(this.label7);
             this.guna2ShadowPanel6.FillColor = System.Drawing.Color.White;
-            this.guna2ShadowPanel6.Location = new System.Drawing.Point(871, 247);
-            this.guna2ShadowPanel6.Margin = new System.Windows.Forms.Padding(4);
+            this.guna2ShadowPanel6.Location = new System.Drawing.Point(634, 189);
             this.guna2ShadowPanel6.Name = "guna2ShadowPanel6";
             this.guna2ShadowPanel6.Radius = 5;
             this.guna2ShadowPanel6.ShadowColor = System.Drawing.Color.Black;
-            this.guna2ShadowPanel6.Size = new System.Drawing.Size(267, 287);
+            this.guna2ShadowPanel6.Size = new System.Drawing.Size(200, 233);
             this.guna2ShadowPanel6.TabIndex = 17;
             // 
             // label7
@@ -365,10 +343,9 @@
             this.label7.BackColor = System.Drawing.Color.Transparent;
             this.label7.Font = new System.Drawing.Font("Imprint MT Shadow", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.ForeColor = System.Drawing.Color.SaddleBrown;
-            this.label7.Location = new System.Drawing.Point(17, 15);
-            this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label7.Location = new System.Drawing.Point(13, 12);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(169, 28);
+            this.label7.Size = new System.Drawing.Size(135, 23);
             this.label7.TabIndex = 5;
             this.label7.Text = "Today\'s Orders";
             // 
@@ -376,10 +353,9 @@
             // 
             this.guna2Panel1.Controls.Add(this.label8);
             this.guna2Panel1.Controls.Add(this.chartSales);
-            this.guna2Panel1.Location = new System.Drawing.Point(295, 247);
-            this.guna2Panel1.Margin = new System.Windows.Forms.Padding(4);
+            this.guna2Panel1.Location = new System.Drawing.Point(222, 195);
             this.guna2Panel1.Name = "guna2Panel1";
-            this.guna2Panel1.Size = new System.Drawing.Size(555, 352);
+            this.guna2Panel1.Size = new System.Drawing.Size(407, 286);
             this.guna2Panel1.TabIndex = 18;
             // 
             // label8
@@ -388,10 +364,9 @@
             this.label8.BackColor = System.Drawing.Color.Transparent;
             this.label8.Font = new System.Drawing.Font("Imprint MT Shadow", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.ForeColor = System.Drawing.Color.SaddleBrown;
-            this.label8.Location = new System.Drawing.Point(23, 12);
-            this.label8.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label8.Location = new System.Drawing.Point(17, 10);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(71, 32);
+            this.label8.Size = new System.Drawing.Size(57, 25);
             this.label8.TabIndex = 6;
             this.label8.Text = "Sales";
             // 
@@ -401,44 +376,44 @@
             this.chartSales.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.chartSales.BorderlineColor = System.Drawing.Color.Transparent;
             this.chartSales.BorderlineWidth = 0;
-            chartArea5.Name = "ChartArea1";
-            this.chartSales.ChartAreas.Add(chartArea5);
-            legend5.Name = "Legend1";
-            this.chartSales.Legends.Add(legend5);
-            this.chartSales.Location = new System.Drawing.Point(4, 59);
-            this.chartSales.Margin = new System.Windows.Forms.Padding(4);
+            chartArea2.Name = "ChartArea1";
+            this.chartSales.ChartAreas.Add(chartArea2);
+            legend2.Name = "Legend1";
+            this.chartSales.Legends.Add(legend2);
+            this.chartSales.Location = new System.Drawing.Point(3, 48);
             this.chartSales.Name = "chartSales";
             this.chartSales.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.Pastel;
             this.chartSales.PaletteCustomColors = new System.Drawing.Color[] {
         System.Drawing.Color.RosyBrown,
         System.Drawing.Color.LightPink};
-            series21.ChartArea = "ChartArea1";
-            series21.Legend = "Legend1";
-            series21.Name = "Monday";
-            series22.ChartArea = "ChartArea1";
-            series22.Legend = "Legend1";
-            series22.Name = "Tuesday";
-            series23.ChartArea = "ChartArea1";
-            series23.Legend = "Legend1";
-            series23.Name = "Wednesday";
-            series24.ChartArea = "ChartArea1";
-            series24.Legend = "Legend1";
-            series24.Name = "Thursday";
-            series25.ChartArea = "ChartArea1";
-            series25.Legend = "Legend1";
-            series25.Name = "Friday";
-            this.chartSales.Series.Add(series21);
-            this.chartSales.Series.Add(series22);
-            this.chartSales.Series.Add(series23);
-            this.chartSales.Series.Add(series24);
-            this.chartSales.Series.Add(series25);
-            this.chartSales.Size = new System.Drawing.Size(547, 279);
+            series6.ChartArea = "ChartArea1";
+            series6.Legend = "Legend1";
+            series6.Name = "Monday";
+            series7.ChartArea = "ChartArea1";
+            series7.Legend = "Legend1";
+            series7.Name = "Tuesday";
+            series8.ChartArea = "ChartArea1";
+            series8.Legend = "Legend1";
+            series8.Name = "Wednesday";
+            series9.ChartArea = "ChartArea1";
+            series9.Legend = "Legend1";
+            series9.Name = "Thursday";
+            series10.ChartArea = "ChartArea1";
+            series10.Legend = "Legend1";
+            series10.Name = "Friday";
+            this.chartSales.Series.Add(series6);
+            this.chartSales.Series.Add(series7);
+            this.chartSales.Series.Add(series8);
+            this.chartSales.Series.Add(series9);
+            this.chartSales.Series.Add(series10);
+            this.chartSales.Size = new System.Drawing.Size(401, 227);
             this.chartSales.TabIndex = 0;
             this.chartSales.Text = "chart1";
             // 
             // monthCalendar1
             // 
-            this.monthCalendar1.Location = new System.Drawing.Point(1151, 102);
+            this.monthCalendar1.Location = new System.Drawing.Point(846, 83);
+            this.monthCalendar1.Margin = new System.Windows.Forms.Padding(7, 7, 7, 7);
             this.monthCalendar1.Name = "monthCalendar1";
             this.monthCalendar1.TabIndex = 19;
             // 
@@ -447,34 +422,19 @@
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.BackgroundImage")));
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox1.Location = new System.Drawing.Point(68, 8);
+            this.pictureBox1.Location = new System.Drawing.Point(11, 7);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(71, 66);
+            this.pictureBox1.Size = new System.Drawing.Size(45, 45);
             this.pictureBox1.TabIndex = 5;
             this.pictureBox1.TabStop = false;
             // 
-            // pictureBox3
-            // 
-            this.pictureBox3.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.pictureBox3.ErrorImage = null;
-            this.pictureBox3.Image = global::InventorySystem.Properties.Resources.icons8_menu_50;
-            this.pictureBox3.InitialImage = null;
-            this.pictureBox3.Location = new System.Drawing.Point(15, 23);
-            this.pictureBox3.Margin = new System.Windows.Forms.Padding(4);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(30, 30);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox3.TabIndex = 3;
-            this.pictureBox3.TabStop = false;
-            this.pictureBox3.Click += new System.EventHandler(this.pictureBox3_Click);
-            // 
             // frmDashboard
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.MistyRose;
-            this.ClientSize = new System.Drawing.Size(1445, 752);
+            this.ClientSize = new System.Drawing.Size(1084, 611);
             this.Controls.Add(this.monthCalendar1);
             this.Controls.Add(this.guna2Panel1);
             this.Controls.Add(this.guna2ShadowPanel6);
@@ -485,7 +445,6 @@
             this.Controls.Add(this.guna2GradientPanel1);
             this.Controls.Add(this.guna2GradientPanel2);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "frmDashboard";
             this.Text = "Dashboard";
             this.Load += new System.EventHandler(this.frmDashboard_Load);
@@ -506,7 +465,6 @@
             this.guna2Panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.chartSales)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -523,7 +481,6 @@
         private System.Windows.Forms.Button btnDbOrders;
         private Guna.UI2.WinForms.Guna2GradientPanel guna2GradientPanel2;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.PictureBox pictureBox3;
         private Guna.UI2.WinForms.Guna2ShadowPanel guna2ShadowPanel1;
         private Guna.UI2.WinForms.Guna2ShadowPanel guna2ShadowPanel2;
         private System.Windows.Forms.Label label2;

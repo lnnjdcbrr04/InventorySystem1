@@ -12,9 +12,14 @@ namespace InventorySystem
 {
     public partial class frmLogin : Form
     {
+
+        private bool isPasswordVisible = false;
         public frmLogin()
         {
             InitializeComponent();
+            txtPassword.UseSystemPasswordChar = true;
+
+           
         }
 
         private void btnLogin_Click(object sender, EventArgs e)
@@ -31,5 +36,7 @@ namespace InventorySystem
                 MessageBox.Show("Invalid Username or Password");
             }
         }
+
+      
     }
 }

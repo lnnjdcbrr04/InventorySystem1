@@ -29,34 +29,21 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmStocks));
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            this.label1 = new System.Windows.Forms.Label();
+            this.guna2GradientPanel1 = new Guna.UI2.WinForms.Guna2GradientPanel();
+            this.btnDbLogout = new System.Windows.Forms.Button();
+            this.btnDbSettings = new System.Windows.Forms.Button();
+            this.btnDbUsers = new System.Windows.Forms.Button();
+            this.btnDbStocks = new System.Windows.Forms.Button();
+            this.btnDbSales = new System.Windows.Forms.Button();
+            this.btnDbInventory = new System.Windows.Forms.Button();
+            this.btnDbOrders = new System.Windows.Forms.Button();
             this.guna2GradientPanel2 = new Guna.UI2.WinForms.Guna2GradientPanel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.guna2GradientPanel1 = new Guna.UI2.WinForms.Guna2GradientPanel();
-            this.btnSlsLogout = new System.Windows.Forms.Button();
-            this.btnSlsSettings = new System.Windows.Forms.Button();
-            this.btnSlsUsers = new System.Windows.Forms.Button();
-            this.btnSlsStocks = new System.Windows.Forms.Button();
-            this.btnSlsSales = new System.Windows.Forms.Button();
-            this.btnSlsInventory = new System.Windows.Forms.Button();
-            this.btnSlsOrder = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.guna2ShadowPanel4 = new Guna.UI2.WinForms.Guna2ShadowPanel();
-            this.label5 = new System.Windows.Forms.Label();
-            this.guna2ShadowPanel2 = new Guna.UI2.WinForms.Guna2ShadowPanel();
-            this.label3 = new System.Windows.Forms.Label();
-            this.guna2ShadowPanel1 = new Guna.UI2.WinForms.Guna2ShadowPanel();
-            this.label4 = new System.Windows.Forms.Label();
-            this.txtSearch = new System.Windows.Forms.TextBox();
-            this.label6 = new System.Windows.Forms.Label();
-            this.btnDeleteStock = new System.Windows.Forms.Button();
-            this.btnEditStock = new System.Windows.Forms.Button();
-            this.btnAddStock = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.ID = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.ProductName = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -64,192 +51,22 @@
             this.Stock = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Price = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Status = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.label6 = new System.Windows.Forms.Label();
+            this.txtSearch = new System.Windows.Forms.TextBox();
+            this.guna2ShadowPanel4 = new Guna.UI2.WinForms.Guna2ShadowPanel();
+            this.label5 = new System.Windows.Forms.Label();
+            this.guna2ShadowPanel2 = new Guna.UI2.WinForms.Guna2ShadowPanel();
+            this.label3 = new System.Windows.Forms.Label();
+            this.guna2ShadowPanel1 = new Guna.UI2.WinForms.Guna2ShadowPanel();
+            this.label4 = new System.Windows.Forms.Label();
+            this.guna2GradientPanel1.SuspendLayout();
             this.guna2GradientPanel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            this.guna2GradientPanel1.SuspendLayout();
-            this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.guna2ShadowPanel4.SuspendLayout();
             this.guna2ShadowPanel2.SuspendLayout();
             this.guna2ShadowPanel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
-            // 
-            // guna2GradientPanel2
-            // 
-            this.guna2GradientPanel2.Controls.Add(this.pictureBox1);
-            this.guna2GradientPanel2.Controls.Add(this.label2);
-            this.guna2GradientPanel2.Controls.Add(this.pictureBox3);
-            this.guna2GradientPanel2.Dock = System.Windows.Forms.DockStyle.Top;
-            this.guna2GradientPanel2.FillColor = System.Drawing.Color.LightPink;
-            this.guna2GradientPanel2.FillColor2 = System.Drawing.Color.White;
-            this.guna2GradientPanel2.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.Vertical;
-            this.guna2GradientPanel2.Location = new System.Drawing.Point(0, 0);
-            this.guna2GradientPanel2.Name = "guna2GradientPanel2";
-            this.guna2GradientPanel2.Size = new System.Drawing.Size(1084, 66);
-            this.guna2GradientPanel2.TabIndex = 16;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.BackgroundImage")));
-            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox1.Location = new System.Drawing.Point(51, 6);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(53, 54);
-            this.pictureBox1.TabIndex = 5;
-            this.pictureBox1.TabStop = false;
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.BackColor = System.Drawing.Color.Transparent;
-            this.label2.Font = new System.Drawing.Font("Imprint MT Shadow", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.SaddleBrown;
-            this.label2.Location = new System.Drawing.Point(120, 21);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(111, 25);
-            this.label2.TabIndex = 4;
-            this.label2.Text = "Dashboard";
-            // 
-            // pictureBox3
-            // 
-            this.pictureBox3.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.pictureBox3.ErrorImage = null;
-            this.pictureBox3.Image = global::InventorySystem.Properties.Resources.icons8_menu_50;
-            this.pictureBox3.InitialImage = null;
-            this.pictureBox3.Location = new System.Drawing.Point(11, 19);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(22, 24);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox3.TabIndex = 3;
-            this.pictureBox3.TabStop = false;
-            // 
-            // guna2GradientPanel1
-            // 
-            this.guna2GradientPanel1.Controls.Add(this.btnSlsLogout);
-            this.guna2GradientPanel1.Controls.Add(this.btnSlsSettings);
-            this.guna2GradientPanel1.Controls.Add(this.btnSlsUsers);
-            this.guna2GradientPanel1.Controls.Add(this.btnSlsStocks);
-            this.guna2GradientPanel1.Controls.Add(this.btnSlsSales);
-            this.guna2GradientPanel1.Controls.Add(this.btnSlsInventory);
-            this.guna2GradientPanel1.Controls.Add(this.btnSlsOrder);
-            this.guna2GradientPanel1.Dock = System.Windows.Forms.DockStyle.Left;
-            this.guna2GradientPanel1.FillColor = System.Drawing.Color.White;
-            this.guna2GradientPanel1.FillColor2 = System.Drawing.Color.LightPink;
-            this.guna2GradientPanel1.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.Vertical;
-            this.guna2GradientPanel1.Location = new System.Drawing.Point(0, 66);
-            this.guna2GradientPanel1.Name = "guna2GradientPanel1";
-            this.guna2GradientPanel1.Size = new System.Drawing.Size(200, 545);
-            this.guna2GradientPanel1.TabIndex = 17;
-            // 
-            // btnSlsLogout
-            // 
-            this.btnSlsLogout.BackColor = System.Drawing.Color.Transparent;
-            this.btnSlsLogout.FlatAppearance.BorderSize = 0;
-            this.btnSlsLogout.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnSlsLogout.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSlsLogout.ForeColor = System.Drawing.Color.SaddleBrown;
-            this.btnSlsLogout.Location = new System.Drawing.Point(1, 486);
-            this.btnSlsLogout.Name = "btnSlsLogout";
-            this.btnSlsLogout.Size = new System.Drawing.Size(197, 33);
-            this.btnSlsLogout.TabIndex = 16;
-            this.btnSlsLogout.Text = "     Logout";
-            this.btnSlsLogout.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnSlsLogout.UseVisualStyleBackColor = false;
-            // 
-            // btnSlsSettings
-            // 
-            this.btnSlsSettings.BackColor = System.Drawing.Color.Transparent;
-            this.btnSlsSettings.FlatAppearance.BorderSize = 0;
-            this.btnSlsSettings.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnSlsSettings.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSlsSettings.ForeColor = System.Drawing.Color.SaddleBrown;
-            this.btnSlsSettings.Location = new System.Drawing.Point(1, 442);
-            this.btnSlsSettings.Name = "btnSlsSettings";
-            this.btnSlsSettings.Size = new System.Drawing.Size(197, 33);
-            this.btnSlsSettings.TabIndex = 15;
-            this.btnSlsSettings.Text = "     Settings";
-            this.btnSlsSettings.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnSlsSettings.UseVisualStyleBackColor = false;
-            // 
-            // btnSlsUsers
-            // 
-            this.btnSlsUsers.BackColor = System.Drawing.Color.Transparent;
-            this.btnSlsUsers.FlatAppearance.BorderSize = 0;
-            this.btnSlsUsers.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnSlsUsers.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSlsUsers.ForeColor = System.Drawing.Color.SaddleBrown;
-            this.btnSlsUsers.Location = new System.Drawing.Point(1, 398);
-            this.btnSlsUsers.Name = "btnSlsUsers";
-            this.btnSlsUsers.Size = new System.Drawing.Size(197, 33);
-            this.btnSlsUsers.TabIndex = 14;
-            this.btnSlsUsers.Text = "     Users";
-            this.btnSlsUsers.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnSlsUsers.UseVisualStyleBackColor = false;
-            // 
-            // btnSlsStocks
-            // 
-            this.btnSlsStocks.BackColor = System.Drawing.Color.Transparent;
-            this.btnSlsStocks.FlatAppearance.BorderSize = 0;
-            this.btnSlsStocks.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnSlsStocks.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSlsStocks.ForeColor = System.Drawing.Color.SaddleBrown;
-            this.btnSlsStocks.Location = new System.Drawing.Point(2, 179);
-            this.btnSlsStocks.Name = "btnSlsStocks";
-            this.btnSlsStocks.Size = new System.Drawing.Size(197, 33);
-            this.btnSlsStocks.TabIndex = 13;
-            this.btnSlsStocks.Text = "     Stocks";
-            this.btnSlsStocks.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnSlsStocks.UseVisualStyleBackColor = false;
-            // 
-            // btnSlsSales
-            // 
-            this.btnSlsSales.BackColor = System.Drawing.Color.Transparent;
-            this.btnSlsSales.FlatAppearance.BorderSize = 0;
-            this.btnSlsSales.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnSlsSales.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSlsSales.ForeColor = System.Drawing.Color.SaddleBrown;
-            this.btnSlsSales.Location = new System.Drawing.Point(1, 135);
-            this.btnSlsSales.Name = "btnSlsSales";
-            this.btnSlsSales.Size = new System.Drawing.Size(197, 33);
-            this.btnSlsSales.TabIndex = 12;
-            this.btnSlsSales.Text = "     Sales Report";
-            this.btnSlsSales.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnSlsSales.UseVisualStyleBackColor = false;
-            // 
-            // btnSlsInventory
-            // 
-            this.btnSlsInventory.BackColor = System.Drawing.Color.Transparent;
-            this.btnSlsInventory.FlatAppearance.BorderSize = 0;
-            this.btnSlsInventory.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnSlsInventory.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSlsInventory.ForeColor = System.Drawing.Color.SaddleBrown;
-            this.btnSlsInventory.Location = new System.Drawing.Point(1, 91);
-            this.btnSlsInventory.Name = "btnSlsInventory";
-            this.btnSlsInventory.Size = new System.Drawing.Size(197, 33);
-            this.btnSlsInventory.TabIndex = 11;
-            this.btnSlsInventory.Text = "     Inventory";
-            this.btnSlsInventory.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnSlsInventory.UseVisualStyleBackColor = false;
-            // 
-            // btnSlsOrder
-            // 
-            this.btnSlsOrder.BackColor = System.Drawing.Color.Transparent;
-            this.btnSlsOrder.FlatAppearance.BorderSize = 0;
-            this.btnSlsOrder.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnSlsOrder.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSlsOrder.ForeColor = System.Drawing.Color.SaddleBrown;
-            this.btnSlsOrder.Location = new System.Drawing.Point(1, 47);
-            this.btnSlsOrder.Name = "btnSlsOrder";
-            this.btnSlsOrder.Size = new System.Drawing.Size(197, 33);
-            this.btnSlsOrder.TabIndex = 10;
-            this.btnSlsOrder.Text = "     Orders";
-            this.btnSlsOrder.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnSlsOrder.UseVisualStyleBackColor = false;
-            this.btnSlsOrder.Click += new System.EventHandler(this.btnSlsOrder_Click_1);
             // 
             // label1
             // 
@@ -262,163 +79,177 @@
             this.label1.TabIndex = 18;
             this.label1.Text = "Stocks Management";
             // 
-            // panel1
+            // guna2GradientPanel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.MistyRose;
-            this.panel1.Controls.Add(this.dataGridView1);
-            this.panel1.Controls.Add(this.btnDeleteStock);
-            this.panel1.Controls.Add(this.btnEditStock);
-            this.panel1.Controls.Add(this.btnAddStock);
-            this.panel1.Controls.Add(this.label6);
-            this.panel1.Controls.Add(this.txtSearch);
-            this.panel1.Controls.Add(this.guna2ShadowPanel4);
-            this.panel1.Controls.Add(this.guna2ShadowPanel2);
-            this.panel1.Controls.Add(this.guna2ShadowPanel1);
-            this.panel1.Location = new System.Drawing.Point(206, 113);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(869, 486);
-            this.panel1.TabIndex = 22;
+            this.guna2GradientPanel1.Controls.Add(this.btnDbLogout);
+            this.guna2GradientPanel1.Controls.Add(this.btnDbSettings);
+            this.guna2GradientPanel1.Controls.Add(this.btnDbUsers);
+            this.guna2GradientPanel1.Controls.Add(this.btnDbStocks);
+            this.guna2GradientPanel1.Controls.Add(this.btnDbSales);
+            this.guna2GradientPanel1.Controls.Add(this.btnDbInventory);
+            this.guna2GradientPanel1.Controls.Add(this.btnDbOrders);
+            this.guna2GradientPanel1.Dock = System.Windows.Forms.DockStyle.Left;
+            this.guna2GradientPanel1.FillColor = System.Drawing.Color.White;
+            this.guna2GradientPanel1.FillColor2 = System.Drawing.Color.LightPink;
+            this.guna2GradientPanel1.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.Vertical;
+            this.guna2GradientPanel1.Location = new System.Drawing.Point(0, 60);
+            this.guna2GradientPanel1.Name = "guna2GradientPanel1";
+            this.guna2GradientPanel1.Size = new System.Drawing.Size(200, 551);
+            this.guna2GradientPanel1.TabIndex = 24;
             // 
-            // guna2ShadowPanel4
+            // btnDbLogout
             // 
-            this.guna2ShadowPanel4.BackColor = System.Drawing.Color.Transparent;
-            this.guna2ShadowPanel4.Controls.Add(this.label5);
-            this.guna2ShadowPanel4.FillColor = System.Drawing.Color.White;
-            this.guna2ShadowPanel4.Location = new System.Drawing.Point(7, 284);
-            this.guna2ShadowPanel4.Name = "guna2ShadowPanel4";
-            this.guna2ShadowPanel4.Radius = 5;
-            this.guna2ShadowPanel4.ShadowColor = System.Drawing.Color.Black;
-            this.guna2ShadowPanel4.Size = new System.Drawing.Size(200, 100);
-            this.guna2ShadowPanel4.TabIndex = 24;
+            this.btnDbLogout.BackColor = System.Drawing.Color.Transparent;
+            this.btnDbLogout.FlatAppearance.BorderSize = 0;
+            this.btnDbLogout.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnDbLogout.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDbLogout.ForeColor = System.Drawing.Color.SaddleBrown;
+            this.btnDbLogout.Location = new System.Drawing.Point(1, 486);
+            this.btnDbLogout.Name = "btnDbLogout";
+            this.btnDbLogout.Size = new System.Drawing.Size(197, 33);
+            this.btnDbLogout.TabIndex = 16;
+            this.btnDbLogout.Text = "     Logout";
+            this.btnDbLogout.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnDbLogout.UseVisualStyleBackColor = false;
             // 
-            // label5
+            // btnDbSettings
             // 
-            this.label5.AutoSize = true;
-            this.label5.BackColor = System.Drawing.Color.Transparent;
-            this.label5.Font = new System.Drawing.Font("Imprint MT Shadow", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.ForeColor = System.Drawing.Color.SaddleBrown;
-            this.label5.Location = new System.Drawing.Point(19, 12);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(134, 25);
-            this.label5.TabIndex = 5;
-            this.label5.Text = "Out of Stocks";
+            this.btnDbSettings.BackColor = System.Drawing.Color.Transparent;
+            this.btnDbSettings.FlatAppearance.BorderSize = 0;
+            this.btnDbSettings.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnDbSettings.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDbSettings.ForeColor = System.Drawing.Color.SaddleBrown;
+            this.btnDbSettings.Location = new System.Drawing.Point(1, 442);
+            this.btnDbSettings.Name = "btnDbSettings";
+            this.btnDbSettings.Size = new System.Drawing.Size(197, 33);
+            this.btnDbSettings.TabIndex = 15;
+            this.btnDbSettings.Text = "     Settings";
+            this.btnDbSettings.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnDbSettings.UseVisualStyleBackColor = false;
             // 
-            // guna2ShadowPanel2
+            // btnDbUsers
             // 
-            this.guna2ShadowPanel2.BackColor = System.Drawing.Color.Transparent;
-            this.guna2ShadowPanel2.Controls.Add(this.label3);
-            this.guna2ShadowPanel2.FillColor = System.Drawing.Color.White;
-            this.guna2ShadowPanel2.Location = new System.Drawing.Point(10, 178);
-            this.guna2ShadowPanel2.Name = "guna2ShadowPanel2";
-            this.guna2ShadowPanel2.Radius = 5;
-            this.guna2ShadowPanel2.ShadowColor = System.Drawing.Color.Black;
-            this.guna2ShadowPanel2.Size = new System.Drawing.Size(200, 100);
-            this.guna2ShadowPanel2.TabIndex = 23;
+            this.btnDbUsers.BackColor = System.Drawing.Color.Transparent;
+            this.btnDbUsers.FlatAppearance.BorderSize = 0;
+            this.btnDbUsers.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnDbUsers.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDbUsers.ForeColor = System.Drawing.Color.SaddleBrown;
+            this.btnDbUsers.Location = new System.Drawing.Point(1, 398);
+            this.btnDbUsers.Name = "btnDbUsers";
+            this.btnDbUsers.Size = new System.Drawing.Size(197, 33);
+            this.btnDbUsers.TabIndex = 14;
+            this.btnDbUsers.Text = "     Users";
+            this.btnDbUsers.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnDbUsers.UseVisualStyleBackColor = false;
             // 
-            // label3
+            // btnDbStocks
             // 
-            this.label3.AutoSize = true;
-            this.label3.BackColor = System.Drawing.Color.Transparent;
-            this.label3.Font = new System.Drawing.Font("Imprint MT Shadow", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.Color.SaddleBrown;
-            this.label3.Location = new System.Drawing.Point(16, 12);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(118, 25);
-            this.label3.TabIndex = 5;
-            this.label3.Text = "Low Stocks";
+            this.btnDbStocks.BackColor = System.Drawing.Color.Transparent;
+            this.btnDbStocks.FlatAppearance.BorderSize = 0;
+            this.btnDbStocks.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnDbStocks.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDbStocks.ForeColor = System.Drawing.Color.SaddleBrown;
+            this.btnDbStocks.Location = new System.Drawing.Point(2, 179);
+            this.btnDbStocks.Name = "btnDbStocks";
+            this.btnDbStocks.Size = new System.Drawing.Size(197, 33);
+            this.btnDbStocks.TabIndex = 13;
+            this.btnDbStocks.Text = "     Stocks";
+            this.btnDbStocks.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnDbStocks.UseVisualStyleBackColor = false;
             // 
-            // guna2ShadowPanel1
+            // btnDbSales
             // 
-            this.guna2ShadowPanel1.BackColor = System.Drawing.Color.Transparent;
-            this.guna2ShadowPanel1.Controls.Add(this.label4);
-            this.guna2ShadowPanel1.FillColor = System.Drawing.Color.White;
-            this.guna2ShadowPanel1.Location = new System.Drawing.Point(10, 72);
-            this.guna2ShadowPanel1.Name = "guna2ShadowPanel1";
-            this.guna2ShadowPanel1.Radius = 5;
-            this.guna2ShadowPanel1.ShadowColor = System.Drawing.Color.Black;
-            this.guna2ShadowPanel1.Size = new System.Drawing.Size(200, 100);
-            this.guna2ShadowPanel1.TabIndex = 22;
+            this.btnDbSales.BackColor = System.Drawing.Color.Transparent;
+            this.btnDbSales.FlatAppearance.BorderSize = 0;
+            this.btnDbSales.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnDbSales.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDbSales.ForeColor = System.Drawing.Color.SaddleBrown;
+            this.btnDbSales.Location = new System.Drawing.Point(1, 135);
+            this.btnDbSales.Name = "btnDbSales";
+            this.btnDbSales.Size = new System.Drawing.Size(197, 33);
+            this.btnDbSales.TabIndex = 12;
+            this.btnDbSales.Text = "     Sales Report";
+            this.btnDbSales.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnDbSales.UseVisualStyleBackColor = false;
             // 
-            // label4
+            // btnDbInventory
             // 
-            this.label4.AutoSize = true;
-            this.label4.BackColor = System.Drawing.Color.Transparent;
-            this.label4.Font = new System.Drawing.Font("Imprint MT Shadow", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.ForeColor = System.Drawing.Color.SaddleBrown;
-            this.label4.Location = new System.Drawing.Point(17, 12);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(146, 25);
-            this.label4.TabIndex = 5;
-            this.label4.Text = "Total Products";
+            this.btnDbInventory.BackColor = System.Drawing.Color.Transparent;
+            this.btnDbInventory.FlatAppearance.BorderSize = 0;
+            this.btnDbInventory.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnDbInventory.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDbInventory.ForeColor = System.Drawing.Color.SaddleBrown;
+            this.btnDbInventory.Location = new System.Drawing.Point(1, 91);
+            this.btnDbInventory.Name = "btnDbInventory";
+            this.btnDbInventory.Size = new System.Drawing.Size(197, 33);
+            this.btnDbInventory.TabIndex = 11;
+            this.btnDbInventory.Text = "     Inventory";
+            this.btnDbInventory.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnDbInventory.UseVisualStyleBackColor = false;
             // 
-            // txtSearch
+            // btnDbOrders
             // 
-            this.txtSearch.Location = new System.Drawing.Point(88, 32);
-            this.txtSearch.Multiline = true;
-            this.txtSearch.Name = "txtSearch";
-            this.txtSearch.Size = new System.Drawing.Size(162, 22);
-            this.txtSearch.TabIndex = 25;
+            this.btnDbOrders.BackColor = System.Drawing.Color.Transparent;
+            this.btnDbOrders.FlatAppearance.BorderSize = 0;
+            this.btnDbOrders.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnDbOrders.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDbOrders.ForeColor = System.Drawing.Color.SaddleBrown;
+            this.btnDbOrders.Location = new System.Drawing.Point(1, 47);
+            this.btnDbOrders.Name = "btnDbOrders";
+            this.btnDbOrders.Size = new System.Drawing.Size(197, 33);
+            this.btnDbOrders.TabIndex = 10;
+            this.btnDbOrders.Text = "     Orders";
+            this.btnDbOrders.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnDbOrders.UseVisualStyleBackColor = false;
             // 
-            // label6
+            // guna2GradientPanel2
             // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.ForeColor = System.Drawing.Color.SaddleBrown;
-            this.label6.Location = new System.Drawing.Point(28, 35);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(54, 19);
-            this.label6.TabIndex = 26;
-            this.label6.Text = "Search:";
+            this.guna2GradientPanel2.Controls.Add(this.pictureBox1);
+            this.guna2GradientPanel2.Controls.Add(this.label2);
+            this.guna2GradientPanel2.Dock = System.Windows.Forms.DockStyle.Top;
+            this.guna2GradientPanel2.FillColor = System.Drawing.Color.LightPink;
+            this.guna2GradientPanel2.FillColor2 = System.Drawing.Color.White;
+            this.guna2GradientPanel2.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.Vertical;
+            this.guna2GradientPanel2.Location = new System.Drawing.Point(0, 0);
+            this.guna2GradientPanel2.Name = "guna2GradientPanel2";
+            this.guna2GradientPanel2.Size = new System.Drawing.Size(1084, 60);
+            this.guna2GradientPanel2.TabIndex = 23;
             // 
-            // btnDeleteStock
+            // pictureBox1
             // 
-            this.btnDeleteStock.BackColor = System.Drawing.Color.RosyBrown;
-            this.btnDeleteStock.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnDeleteStock.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnDeleteStock.ForeColor = System.Drawing.Color.White;
-            this.btnDeleteStock.Location = new System.Drawing.Point(510, 25);
-            this.btnDeleteStock.Name = "btnDeleteStock";
-            this.btnDeleteStock.Size = new System.Drawing.Size(91, 29);
-            this.btnDeleteStock.TabIndex = 29;
-            this.btnDeleteStock.Text = "Delete";
-            this.btnDeleteStock.UseVisualStyleBackColor = false;
+            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.BackgroundImage")));
+            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox1.Location = new System.Drawing.Point(11, 7);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(45, 45);
+            this.pictureBox1.TabIndex = 5;
+            this.pictureBox1.TabStop = false;
             // 
-            // btnEditStock
+            // label2
             // 
-            this.btnEditStock.BackColor = System.Drawing.Color.RosyBrown;
-            this.btnEditStock.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnEditStock.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnEditStock.ForeColor = System.Drawing.Color.White;
-            this.btnEditStock.Location = new System.Drawing.Point(413, 25);
-            this.btnEditStock.Name = "btnEditStock";
-            this.btnEditStock.Size = new System.Drawing.Size(91, 29);
-            this.btnEditStock.TabIndex = 28;
-            this.btnEditStock.Text = "Edit";
-            this.btnEditStock.UseVisualStyleBackColor = false;
-            // 
-            // btnAddStock
-            // 
-            this.btnAddStock.BackColor = System.Drawing.Color.RosyBrown;
-            this.btnAddStock.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnAddStock.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAddStock.ForeColor = System.Drawing.Color.White;
-            this.btnAddStock.Location = new System.Drawing.Point(316, 25);
-            this.btnAddStock.Name = "btnAddStock";
-            this.btnAddStock.Size = new System.Drawing.Size(91, 29);
-            this.btnAddStock.TabIndex = 27;
-            this.btnAddStock.Text = "Add";
-            this.btnAddStock.UseVisualStyleBackColor = false;
+            this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.Transparent;
+            this.label2.Font = new System.Drawing.Font("Imprint MT Shadow", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.SaddleBrown;
+            this.label2.Location = new System.Drawing.Point(66, 18);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(71, 25);
+            this.label2.TabIndex = 4;
+            this.label2.Text = "Stocks";
             // 
             // dataGridView1
             // 
-            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle4.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle4.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle4.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle4;
+            this.dataGridView1.BackgroundColor = System.Drawing.Color.MistyRose;
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.ID,
@@ -427,27 +258,27 @@
             this.Stock,
             this.Price,
             this.Status});
-            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle5.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle5.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle5.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dataGridView1.DefaultCellStyle = dataGridViewCellStyle5;
-            this.dataGridView1.Location = new System.Drawing.Point(223, 72);
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dataGridView1.DefaultCellStyle = dataGridViewCellStyle2;
+            this.dataGridView1.Location = new System.Drawing.Point(438, 179);
             this.dataGridView1.Name = "dataGridView1";
-            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle6.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle6.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle6.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridView1.RowHeadersDefaultCellStyle = dataGridViewCellStyle6;
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle3.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle3.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridView1.RowHeadersDefaultCellStyle = dataGridViewCellStyle3;
             this.dataGridView1.RowHeadersVisible = false;
-            this.dataGridView1.Size = new System.Drawing.Size(634, 312);
-            this.dataGridView1.TabIndex = 30;
+            this.dataGridView1.Size = new System.Drawing.Size(634, 336);
+            this.dataGridView1.TabIndex = 36;
             // 
             // ID
             // 
@@ -483,65 +314,145 @@
             this.Status.HeaderText = "Status";
             this.Status.Name = "Status";
             // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.ForeColor = System.Drawing.Color.SaddleBrown;
+            this.label6.Location = new System.Drawing.Point(222, 130);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(65, 21);
+            this.label6.TabIndex = 35;
+            this.label6.Text = "Search:";
+            // 
+            // txtSearch
+            // 
+            this.txtSearch.Location = new System.Drawing.Point(293, 129);
+            this.txtSearch.Multiline = true;
+            this.txtSearch.Name = "txtSearch";
+            this.txtSearch.Size = new System.Drawing.Size(162, 22);
+            this.txtSearch.TabIndex = 34;
+            // 
+            // guna2ShadowPanel4
+            // 
+            this.guna2ShadowPanel4.BackColor = System.Drawing.Color.Transparent;
+            this.guna2ShadowPanel4.Controls.Add(this.label5);
+            this.guna2ShadowPanel4.FillColor = System.Drawing.Color.White;
+            this.guna2ShadowPanel4.Location = new System.Drawing.Point(221, 415);
+            this.guna2ShadowPanel4.Name = "guna2ShadowPanel4";
+            this.guna2ShadowPanel4.Radius = 5;
+            this.guna2ShadowPanel4.ShadowColor = System.Drawing.Color.Black;
+            this.guna2ShadowPanel4.Size = new System.Drawing.Size(200, 100);
+            this.guna2ShadowPanel4.TabIndex = 33;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.BackColor = System.Drawing.Color.Transparent;
+            this.label5.Font = new System.Drawing.Font("Imprint MT Shadow", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.ForeColor = System.Drawing.Color.SaddleBrown;
+            this.label5.Location = new System.Drawing.Point(19, 12);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(134, 25);
+            this.label5.TabIndex = 5;
+            this.label5.Text = "Out of Stocks";
+            // 
+            // guna2ShadowPanel2
+            // 
+            this.guna2ShadowPanel2.BackColor = System.Drawing.Color.Transparent;
+            this.guna2ShadowPanel2.Controls.Add(this.label3);
+            this.guna2ShadowPanel2.FillColor = System.Drawing.Color.White;
+            this.guna2ShadowPanel2.Location = new System.Drawing.Point(221, 297);
+            this.guna2ShadowPanel2.Name = "guna2ShadowPanel2";
+            this.guna2ShadowPanel2.Radius = 5;
+            this.guna2ShadowPanel2.ShadowColor = System.Drawing.Color.Black;
+            this.guna2ShadowPanel2.Size = new System.Drawing.Size(200, 100);
+            this.guna2ShadowPanel2.TabIndex = 32;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.BackColor = System.Drawing.Color.Transparent;
+            this.label3.Font = new System.Drawing.Font("Imprint MT Shadow", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.Color.SaddleBrown;
+            this.label3.Location = new System.Drawing.Point(16, 12);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(118, 25);
+            this.label3.TabIndex = 5;
+            this.label3.Text = "Low Stocks";
+            // 
+            // guna2ShadowPanel1
+            // 
+            this.guna2ShadowPanel1.BackColor = System.Drawing.Color.Transparent;
+            this.guna2ShadowPanel1.Controls.Add(this.label4);
+            this.guna2ShadowPanel1.FillColor = System.Drawing.Color.White;
+            this.guna2ShadowPanel1.Location = new System.Drawing.Point(221, 179);
+            this.guna2ShadowPanel1.Name = "guna2ShadowPanel1";
+            this.guna2ShadowPanel1.Radius = 5;
+            this.guna2ShadowPanel1.ShadowColor = System.Drawing.Color.Black;
+            this.guna2ShadowPanel1.Size = new System.Drawing.Size(200, 100);
+            this.guna2ShadowPanel1.TabIndex = 31;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.BackColor = System.Drawing.Color.Transparent;
+            this.label4.Font = new System.Drawing.Font("Imprint MT Shadow", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.ForeColor = System.Drawing.Color.SaddleBrown;
+            this.label4.Location = new System.Drawing.Point(17, 12);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(146, 25);
+            this.label4.TabIndex = 5;
+            this.label4.Text = "Total Products";
+            // 
             // frmStocks
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Linen;
             this.ClientSize = new System.Drawing.Size(1084, 611);
-            this.Controls.Add(this.panel1);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.label6);
+            this.Controls.Add(this.txtSearch);
+            this.Controls.Add(this.guna2ShadowPanel4);
+            this.Controls.Add(this.guna2ShadowPanel2);
+            this.Controls.Add(this.guna2ShadowPanel1);
             this.Controls.Add(this.guna2GradientPanel1);
             this.Controls.Add(this.guna2GradientPanel2);
+            this.Controls.Add(this.label1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "frmStocks";
             this.Text = "Stocks";
+            this.guna2GradientPanel1.ResumeLayout(false);
             this.guna2GradientPanel2.ResumeLayout(false);
             this.guna2GradientPanel2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            this.guna2GradientPanel1.ResumeLayout(false);
-            this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.guna2ShadowPanel4.ResumeLayout(false);
             this.guna2ShadowPanel4.PerformLayout();
             this.guna2ShadowPanel2.ResumeLayout(false);
             this.guna2ShadowPanel2.PerformLayout();
             this.guna2ShadowPanel1.ResumeLayout(false);
             this.guna2ShadowPanel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
         #endregion
+        private System.Windows.Forms.Label label1;
+        private Guna.UI2.WinForms.Guna2GradientPanel guna2GradientPanel1;
+        private System.Windows.Forms.Button btnDbLogout;
+        private System.Windows.Forms.Button btnDbSettings;
+        private System.Windows.Forms.Button btnDbUsers;
+        private System.Windows.Forms.Button btnDbStocks;
+        private System.Windows.Forms.Button btnDbSales;
+        private System.Windows.Forms.Button btnDbInventory;
+        private System.Windows.Forms.Button btnDbOrders;
         private Guna.UI2.WinForms.Guna2GradientPanel guna2GradientPanel2;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.PictureBox pictureBox3;
-        private Guna.UI2.WinForms.Guna2GradientPanel guna2GradientPanel1;
-        private System.Windows.Forms.Button btnSlsLogout;
-        private System.Windows.Forms.Button btnSlsSettings;
-        private System.Windows.Forms.Button btnSlsUsers;
-        private System.Windows.Forms.Button btnSlsStocks;
-        private System.Windows.Forms.Button btnSlsSales;
-        private System.Windows.Forms.Button btnSlsInventory;
-        private System.Windows.Forms.Button btnSlsOrder;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Panel panel1;
-        private Guna.UI2.WinForms.Guna2ShadowPanel guna2ShadowPanel4;
-        private System.Windows.Forms.Label label5;
-        private Guna.UI2.WinForms.Guna2ShadowPanel guna2ShadowPanel2;
-        private System.Windows.Forms.Label label3;
-        private Guna.UI2.WinForms.Guna2ShadowPanel guna2ShadowPanel1;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.TextBox txtSearch;
-        private System.Windows.Forms.Button btnDeleteStock;
-        private System.Windows.Forms.Button btnEditStock;
-        private System.Windows.Forms.Button btnAddStock;
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.DataGridViewTextBoxColumn ID;
         private System.Windows.Forms.DataGridViewTextBoxColumn ProductName;
@@ -549,5 +460,13 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn Stock;
         private System.Windows.Forms.DataGridViewTextBoxColumn Price;
         private System.Windows.Forms.DataGridViewTextBoxColumn Status;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.TextBox txtSearch;
+        private Guna.UI2.WinForms.Guna2ShadowPanel guna2ShadowPanel4;
+        private System.Windows.Forms.Label label5;
+        private Guna.UI2.WinForms.Guna2ShadowPanel guna2ShadowPanel2;
+        private System.Windows.Forms.Label label3;
+        private Guna.UI2.WinForms.Guna2ShadowPanel guna2ShadowPanel1;
+        private System.Windows.Forms.Label label4;
     }
 }
