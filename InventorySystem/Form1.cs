@@ -18,6 +18,16 @@ namespace InventorySystem
         {
             InitializeComponent();
             txtPassword.UseSystemPasswordChar = true;
+        }
+
+        private void btnLogin_Click(object sender, EventArgs e)
+        {
+            SqlConnection con = new SqlConnection(connectionString);
+
+            con.Open();
+
+            string query =
+                "SELECT * FROM Users WHERE Username=@u AND Password=@p";
 
            
         }
