@@ -8,12 +8,12 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+
 namespace InventorySystem
 {
+
     public partial class frmLogin : Form
     {
-
-        private bool isPasswordVisible = false;
         public frmLogin()
         {
             InitializeComponent();
@@ -22,31 +22,35 @@ namespace InventorySystem
 
         private void btnLogin_Click(object sender, EventArgs e)
         {
-            SqlConnection con = new SqlConnection(connectionString);
+            string username = txtUsername.Text;
+            string password = txtPassword.Text;
 
-            con.Open();
-
-            string query =
-                "SELECT * FROM Users WHERE Username=@u AND Password=@p";
-
-           
-        }
-
-        private void btnLogin_Click(object sender, EventArgs e)
-        {
-            if (txtUsername.Text == "admin" && txtPassword.Text == "1234")
+            if (username == "admin" && password == "1234")
             {
-                frmDashboard dash = new frmDashboard();
-                dash.Show();
+                MessageBox.Show(
+                    "Successfully Login",
+                    "Login",
+                    MessageBoxButtons.OK,
+                    MessageBoxIcon.Information);
 
+                frmDashboard dsh = new frmDashboard();
+
+                dsh.Show();
                 this.Hide();
             }
             else
             {
-                MessageBox.Show("Invalid Username or Password");
-            }
-        }
+                MessageBox.Show(
+                    "Invalid Username or Password",
+                    "Error",
+                    MessageBoxButtons.OK,
+                    MessageBoxIcon.Error);
 
-      
+                txtPassword.Clear();
+                txtPassword.Focus();
+            }
+
+
+        }
     }
 }

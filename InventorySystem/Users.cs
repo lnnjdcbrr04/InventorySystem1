@@ -17,38 +17,63 @@ namespace InventorySystem
             InitializeComponent();
         }
 
-        private void btnUsrOrders_Click(object sender, EventArgs e)
+        private void frmUsers_Load(object sender, EventArgs e)
         {
-            frmOrders order = new frmOrders();
-            order.Show();
+
+        }
+        private void btnUserProd_Click(object sender, EventArgs e)
+        {
+            frmProducts usr = new frmProducts();
+            usr.Show();
             this.Close();
         }
 
-        private void btnUsrInventory_Click(object sender, EventArgs e)
+        private void btnUserDsh_Click(object sender, EventArgs e)
         {
-            frmInv inv = new frmInv();
-            inv.Show();
+            frmDashboard usr = new frmDashboard();
+            usr.Show();
             this.Close();
         }
 
-        private void btnUsrSales_Click(object sender, EventArgs e)
+        private void btnUserStocks_Click(object sender, EventArgs e)
         {
-            frmSales sls = new frmSales();
-            sls.Show();
+            frmStocks usr = new frmStocks();
+            usr.Show();
             this.Close();
         }
 
-        private void btnUsrStocks_Click(object sender, EventArgs e)
+        private void btnUserTrans_Click(object sender, EventArgs e)
         {
-            frmStocks stk = new frmStocks();
-            stk.Show();
+            frmTransaction usr = new frmTransaction();
+            usr.Show();
             this.Close();
         }
 
-        private void btnUsrLogout_Click(object sender, EventArgs e)
+        private void btnUserOrders_Click(object sender, EventArgs e)
         {
-            frmLogin login  = new frmLogin();
-            login.Show();
+            frmOrder usr = new frmOrder();
+            usr.Show();
+            this.Close();
+        }
+
+        private void btnUserReports_Click(object sender, EventArgs e)
+        {
+            frmReport usr = new frmReport();
+            usr.Show();
+            this.Close();
+        }
+
+        private void btnUserUsers_Click(object sender, EventArgs e)
+        {
+            frmUsers usr = new frmUsers();
+            usr.Show();
+            this.Close();
+        }
+
+        private void btnUserLogout_Click(object sender, EventArgs e)
+        {
+            frmLogin usr = new frmLogin();
+            usr.Show();
             this.Close();
         }
     }

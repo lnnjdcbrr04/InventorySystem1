@@ -32,17 +32,17 @@
             this.guna2CustomGradientPanel1 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
             this.txtPassword = new Guna.UI2.WinForms.Guna2TextBox();
             this.txtUsername = new Guna.UI2.WinForms.Guna2TextBox();
-            this.linkLabel2 = new System.Windows.Forms.LinkLabel();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.frgtPw = new System.Windows.Forms.LinkLabel();
             this.btnLogin = new System.Windows.Forms.Button();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
+            this.cbRemember = new System.Windows.Forms.CheckBox();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.guna2CustomGradientPanel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // guna2CustomGradientPanel1
@@ -51,9 +51,9 @@
             this.guna2CustomGradientPanel1.Controls.Add(this.txtPassword);
             this.guna2CustomGradientPanel1.Controls.Add(this.txtUsername);
             this.guna2CustomGradientPanel1.Controls.Add(this.pictureBox1);
-            this.guna2CustomGradientPanel1.Controls.Add(this.linkLabel2);
+            this.guna2CustomGradientPanel1.Controls.Add(this.frgtPw);
             this.guna2CustomGradientPanel1.Controls.Add(this.btnLogin);
-            this.guna2CustomGradientPanel1.Controls.Add(this.checkBox1);
+            this.guna2CustomGradientPanel1.Controls.Add(this.cbRemember);
             this.guna2CustomGradientPanel1.Controls.Add(this.label4);
             this.guna2CustomGradientPanel1.Controls.Add(this.label3);
             this.guna2CustomGradientPanel1.Controls.Add(this.label2);
@@ -112,18 +112,30 @@
             this.txtUsername.Size = new System.Drawing.Size(259, 29);
             this.txtUsername.TabIndex = 21;
             // 
-            // linkLabel2
+            // pictureBox1
             // 
-            this.linkLabel2.AutoSize = true;
-            this.linkLabel2.BackColor = System.Drawing.Color.Transparent;
-            this.linkLabel2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.linkLabel2.LinkColor = System.Drawing.Color.SaddleBrown;
-            this.linkLabel2.Location = new System.Drawing.Point(294, 418);
-            this.linkLabel2.Name = "linkLabel2";
-            this.linkLabel2.Size = new System.Drawing.Size(106, 15);
-            this.linkLabel2.TabIndex = 19;
-            this.linkLabel2.TabStop = true;
-            this.linkLabel2.Text = "Forgot Password?";
+            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.BackgroundImage")));
+            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox1.Location = new System.Drawing.Point(194, 53);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(155, 151);
+            this.pictureBox1.TabIndex = 20;
+            this.pictureBox1.TabStop = false;
+            // 
+            // frgtPw
+            // 
+            this.frgtPw.AutoSize = true;
+            this.frgtPw.BackColor = System.Drawing.Color.Transparent;
+            this.frgtPw.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.frgtPw.LinkColor = System.Drawing.Color.SaddleBrown;
+            this.frgtPw.Location = new System.Drawing.Point(294, 418);
+            this.frgtPw.Name = "frgtPw";
+            this.frgtPw.Size = new System.Drawing.Size(106, 15);
+            this.frgtPw.TabIndex = 19;
+            this.frgtPw.TabStop = true;
+            this.frgtPw.Text = "Forgot Password?";
             // 
             // btnLogin
             // 
@@ -140,16 +152,16 @@
             this.btnLogin.UseVisualStyleBackColor = false;
             this.btnLogin.Click += new System.EventHandler(this.btnLogin_Click);
             // 
-            // checkBox1
+            // cbRemember
             // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.BackColor = System.Drawing.Color.Transparent;
-            this.checkBox1.Location = new System.Drawing.Point(134, 417);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(94, 17);
-            this.checkBox1.TabIndex = 16;
-            this.checkBox1.Text = "Remember me";
-            this.checkBox1.UseVisualStyleBackColor = false;
+            this.cbRemember.AutoSize = true;
+            this.cbRemember.BackColor = System.Drawing.Color.Transparent;
+            this.cbRemember.Location = new System.Drawing.Point(134, 417);
+            this.cbRemember.Name = "cbRemember";
+            this.cbRemember.Size = new System.Drawing.Size(94, 17);
+            this.cbRemember.TabIndex = 16;
+            this.cbRemember.Text = "Remember me";
+            this.cbRemember.UseVisualStyleBackColor = false;
             // 
             // label4
             // 
@@ -196,18 +208,6 @@
             this.pictureBox2.TabIndex = 11;
             this.pictureBox2.TabStop = false;
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.BackgroundImage")));
-            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox1.Location = new System.Drawing.Point(194, 53);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(155, 151);
-            this.pictureBox1.TabIndex = 20;
-            this.pictureBox1.TabStop = false;
-            // 
             // frmLogin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -218,11 +218,12 @@
             this.Controls.Add(this.guna2CustomGradientPanel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "frmLogin";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Login";
             this.guna2CustomGradientPanel1.ResumeLayout(false);
             this.guna2CustomGradientPanel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -230,9 +231,9 @@
         #endregion
 
         private Guna.UI2.WinForms.Guna2CustomGradientPanel guna2CustomGradientPanel1;
-        private System.Windows.Forms.LinkLabel linkLabel2;
+        private System.Windows.Forms.LinkLabel frgtPw;
         private System.Windows.Forms.Button btnLogin;
-        private System.Windows.Forms.CheckBox checkBox1;
+        private System.Windows.Forms.CheckBox cbRemember;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;

@@ -17,46 +17,60 @@ namespace InventorySystem
             InitializeComponent();
         }
 
-        private void btnSlsOrder_Click(object sender, EventArgs e)
+        private void btnDsh_Click(object sender, EventArgs e)
         {
-            frmOrders order = new frmOrders();
-            order.Show();
+            frmDashboard stk = new frmDashboard();
+            stk.Show();
             this.Close();
         }
 
-        private void btnSlsInventory_Click(object sender, EventArgs e)
+        private void btnStkProducts_Click(object sender, EventArgs e)
         {
-            frmInv inv = new frmInv();
-            inv.Show();
+            frmProducts stk = new frmProducts();
+            stk.Show();
             this.Close();
         }
 
-        private void btnSlsSales_Click(object sender, EventArgs e)
+        private void btnStkStocks_Click(object sender, EventArgs e)
         {
-            frmSales sls = new frmSales();
-            sls.Show();
+            frmStocks stk = new frmStocks();
+            stk.Show();
             this.Close();
         }
 
-        private void btnSlsLogout_Click(object sender, EventArgs e)
+        private void btnStkTrans_Click(object sender, EventArgs e)
         {
-            frmLogin login = new frmLogin();
-            login .Show();
+            frmTransaction stk = new frmTransaction();
+            stk.Show();
             this.Close();
         }
 
-        private void btnSlsUsers_Click(object sender, EventArgs e)
+        private void btnStkOrders_Click(object sender, EventArgs e)
         {
-            frmUsers usr = new frmUsers();
-            usr.Show();
+            frmOrder stk = new frmOrder();
+            stk.Show();
             this.Close();
         }
 
-        private void btnSlsOrder_Click_1(object sender, EventArgs e)
+        private void btnStkReports_Click(object sender, EventArgs e)
         {
-
+            frmReport stk = new frmReport();
+            stk.Show();
+            this.Close();
         }
 
-       
+        private void btnStkUsers_Click(object sender, EventArgs e)
+        {
+            frmUsers stk = new frmUsers();
+            stk.Show();
+            this.Close();
+        }
+
+        private void btnStkLogout_Click(object sender, EventArgs e)
+        {
+            frmLogin stk = new frmLogin();
+            stk.Show();
+            this.Close();
+        }
     }
 }

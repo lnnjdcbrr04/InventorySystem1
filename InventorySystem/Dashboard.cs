@@ -21,55 +21,59 @@ namespace InventorySystem
         {
 
         }
-
-        private void btnDbLogout_Click(object sender, EventArgs e)
+        private void btnDsh_Click(object sender, EventArgs e)
         {
-            frmLogin login = new frmLogin();
-            login.Show();
-
-            //Message
+            frmDashboard dsh = new frmDashboard();
+            dsh.Show();
             this.Close();
         }
 
-        private void btnDbOrders_Click(object sender, EventArgs e)
+        private void btnDbProd_Click(object sender, EventArgs e)
         {
-            frmOrders orders = new frmOrders();
-            orders.Show();
-
-            this.Close();
-        }
-
-        private void btnDbInventory_Click(object sender, EventArgs e)
-        {
-            frmInv inv = new frmInv();
-            inv.Show();
-
-            this.Close();
-        }
-
-        private void btnDbSales_Click(object sender, EventArgs e)
-        {
-            frmSales sls = new frmSales();
-            sls.Show();
+            frmProducts dsh = new frmProducts();
+            dsh.Show();
             this.Close();
         }
 
         private void btnDbStocks_Click(object sender, EventArgs e)
         {
-            frmStocks stk = new frmStocks();
-            stk.Show();
+            frmStocks dsh = new frmStocks();
+            dsh.Show();
             this.Close();
         }
 
-        private void pictureBox3_Click(object sender, EventArgs e)
+        private void btnDbTrans_Click(object sender, EventArgs e)
         {
-            
+            frmTransaction dsh = new frmTransaction();
+            dsh.Show();
+            this.Close();
+        }
+
+        private void btnDbOrders_Click(object sender, EventArgs e)
+        {
+            frmOrder dsh = new frmOrder();
+            dsh.Show();
+            this.Close();
+        }
+
+        private void btnDbReports_Click(object sender, EventArgs e)
+        {
+            frmReport dsh = new frmReport();
+            dsh.Show();
+            this.Close();
         }
 
         private void btnDbUsers_Click(object sender, EventArgs e)
         {
-            frmUsers usr = new frmUsers();
-            usr.Show();
+            frmUsers dsh = new frmUsers();
+            dsh.Show();
+            this.Close();
+        }
+
+        private void btnDbLogout_Click(object sender, EventArgs e)
+        {
+            frmLogin dsh = new frmLogin();
+            dsh.Show();
             this.Close();
         }
     }
